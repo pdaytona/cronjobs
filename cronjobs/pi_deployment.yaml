@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: yamlpi-github-tag
+  name: yamlpi-github-behind-tag
   namespace: 'demo-namespace'
 spec:
   template:
