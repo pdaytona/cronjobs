@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: yamlpi-github-commmit
+  name: yamlpi-github-behind-commmit
   namespace: 'qa-automator'
 spec:
   template:
@@ -9,6 +9,6 @@ spec:
       containers:
       - name: pi
         image: perl
-        command: ["perl",  "-Mbignum=bpi", "-wle", "print bpi(500)"]
+        command: ["perl",  "-Mbignum=bpi", "-wle", "print bpi(1000)"]
       restartPolicy: Never
   backoffLimit: 5
