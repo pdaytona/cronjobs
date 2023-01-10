@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: yamlpi-github-behind-tag
-  namespace: 'demo-namespace'
+  namespace: 'qa-automator'
 spec:
   template:
     spec:
