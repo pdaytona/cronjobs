@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: yamlpi-github-tag-tag2
+  name: yamlpi-github-tag-autom2
   namespace: 'autom2'
 spec:
   template:
