@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: yamlpi-github-tag-tag2
-  namespace: 'qa-autom2'
+  namespace: 'autom2'
 spec:
   template:
     spec:
